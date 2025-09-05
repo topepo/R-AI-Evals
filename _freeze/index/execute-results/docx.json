@@ -1,0 +1,17 @@
+{
+  "hash": "185c5f545183ec212145e0b36fc55009",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Analyzing LLM Evaluations\"\nauthors:\n  - name: Max Kuhn\n    affiliation: Posit PBC\n    roles: writing\n    corresponding: true\n    email: max@posit.co\n    orchid: 0000-0003-2402-136X\n  - name: Simon Couch\n    affiliation: Posit PBC\n    roles: writing\n    corresponding: false\n    email: simon.couch@posit.co \n\n---\n\n## Section\nThis is a simple placeholder for the manuscript's main document [@knuth84].\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

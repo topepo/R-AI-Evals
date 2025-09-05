@@ -1,0 +1,15 @@
+{
+  "hash": "e547c7e6be47e7bcdc30b9a806d565ec",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Analyzing LLM Evaluations\"\nauthors:\n  - name: Max Kuhn\n    affiliation: Posit PBC\n    roles: writing\n    corresponding: true\n    email: max@posit.co\n    orchid: 0000-0003-2402-136X\n  - name: Simon Couch\n    affiliation: Posit PBC\n    roles: writing\n    corresponding: false\n    email: simon.couch@posit.co \nabstract: |\n  Frameworks exist for automating the evaluations of LLMs so that queries can be executed and assessed over many experimental factors: LLM models, prompts, replicates, etc. The resulting designs are often factorial in nature but can have a variety of hierarchical structures, such as replicates within queries, scores within raters, and so on. \n  \n  This talk describes how experimental results can be analyzed and reported for a variety of designs and outcome types (percentage correct, correct/incorrect, ordinal scales, etc.). It also shows how off-the-shelf tools for Frequentist and Bayesian inferential analysis can be utilized. The methods are illustrated with an example evaluation experiment.\"\n---\n\n## Section\nThis is a simple placeholder for the manuscript's main document [@knuth84].\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
