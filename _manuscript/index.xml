@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Analyzing LLM Evaluations</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Kuhn</surname>
+            <given-names>Max</given-names>
+          </name>
+          <string-name>Max Kuhn</string-name>
+          <email>max@posit.co</email>
+          <role vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Couch</surname>
+            <given-names>Simon</given-names>
+          </name>
+          <string-name>Simon Couch</string-name>
+          <email>simon.couch@posit.co</email>
+          <role vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>Posit PBC</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">max@posit.co</corresp>
+      </author-notes>
+      <history/>
+      <abstract>
+        <p>Frameworks exist for automating the evaluations of LLMs so that
+queries can be executed and assessed over many experimental factors: LLM
+models, prompts, replicates, etc. The resulting designs are often
+factorial in nature but can have a variety of hierarchical structures,
+such as replicates within queries, scores within raters, and so on.</p>
+        <p>This talk describes how experimental results can be analyzed and
+reported for a variety of designs and outcome types (percentage correct,
+correct/incorrect, ordinal scales, etc.). It also shows how
+off-the-shelf tools for Frequentist and Bayesian inferential analysis
+can be utilized. The methods are illustrated with an example evaluation
+experiment.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+
+</body>
+  <back>
+</back>
+</article>

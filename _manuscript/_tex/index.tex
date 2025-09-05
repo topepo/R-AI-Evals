@@ -5,9 +5,7 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  letterpaper,
-  DIV=11,
-  numbers=noendperiod]{scrartcl}
+]{article}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
@@ -106,7 +104,6 @@
  
 
 
-\KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -162,7 +159,13 @@
 
 
 \title{Analyzing LLM Evaluations}
-\author{Max Kuhn \and Simon Couch}
+\author{
+  MaxKuhn \\
+  \texttt{max@posit.co}
+  \and
+  Simon Couch\\
+  \texttt{simon.couch@posit.co}
+}
 \date{2025-09-05}
 \begin{document}
 \maketitle
